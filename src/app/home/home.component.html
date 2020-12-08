@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 class="title">
+    {{ 'PAGES.HOME.TITLE' | translate }}
+  </h1>
+
+  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+
+  <a (click)="showOpenDialog()">打开目录</a>
+
+  <a (click)="saveFile()">导出文件</a>
+
+  <a (click)="openWindow()">Github</a>
+</div>
